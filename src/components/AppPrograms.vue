@@ -101,4 +101,11 @@ section {
     }
   }
 }
+
+#videoPreview {
+  position: relative;
+  .decorations {
+    position: absolute;
+  }
+}
 </style>
