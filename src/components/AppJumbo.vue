@@ -116,6 +116,7 @@ export default {
   margin: 20px 0;
   &:hover {
     transform: scale(1.05);
+    background-color: var(--purpdark);
   }
 }
 h1 {

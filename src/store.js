@@ -6,4 +6,5 @@ export const store = reactive({
   sponsors: [],
   courses: [],
   programs: [],
+  reviews: [],
 });

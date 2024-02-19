@@ -463,5 +463,35 @@
       "redirect": "Start now",
       "image": "home-2-image-box-03.png"
     }
+  ],
+  "reviews": [
+    {
+      "title": "High level of eficiency and scientific teaching methods",
+      "description": "I am free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus. Great study portal for people like me.",
+      "name": "Mina Hollace",
+      "profession": "Freelancer",
+      "image": "testimonial-avata-02.jpg"
+    },
+    {
+      "title": "Professional team of specialists and passionate mentors at reach",
+      "description": "I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.",
+      "name": "Madley Pondor",
+      "profession": "IT Spacialist",
+      "image": "testimonial-avata-04.jpg"
+    },
+    {
+      "title": "lt's a choice of quality for people with special needs",
+      "description": "I'm a very strict person so I require everything to be organized and neat. Then, l'Il be able to make things right and shine. MaxCoach guys just got me.",
+      "name": "Florence Themes",
+      "profession": "Multimedia Admin",
+      "image": "testimonial-avata-03.jpg"
+    },
+    {
+      "title": "This is absolutely fantastic!",
+      "description": "I usually struggle to keep up with my work but this helped me improved significantly and in a very short time!",
+      "name": "Ronald Wisley",
+      "profession": "Wizard",
+      "image": "testimonial-avata-01.jpg"
+    }
   ]
 }
