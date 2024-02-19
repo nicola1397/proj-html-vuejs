@@ -1,0 +1,376 @@
+{
+  "navLinks": [
+    {
+      "label": "Home",
+      "url": "#",
+      "active": false,
+      "menu": [
+        {
+          "label": "Start Here",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Success Story",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About Me",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 01",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 02",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 03",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Contact Me",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Contact Us",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Purchase Guide",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Terms of Service",
+          "url": "#",
+          "active": false
+        }
+      ]
+    },
+    {
+      "label": "Pages",
+      "url": "#",
+      "active": false,
+      "menu": [
+        {
+          "label": "Start Here",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Success Story",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About Me",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 01",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 02",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 03",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Contact Me",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Contact Us",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Purchase Guide",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Terms of Service",
+          "url": "#",
+          "active": false
+        }
+      ]
+    },
+    {
+      "label": "Courses",
+      "url": "#",
+      "active": false,
+      "menu": [
+        {
+          "label": "Start Here",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Success Story",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About Me",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 01",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 02",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 03",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Contact Me",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Contact Us",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Purchase Guide",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Terms of Service",
+          "url": "#",
+          "active": false
+        }
+      ]
+    },
+    {
+      "label": "Features",
+      "url": "#",
+      "active": false,
+      "menu": [
+        {
+          "label": "Start Here",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Success Story",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About Me",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 01",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 02",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 03",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Contact Me",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Contact Us",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Purchase Guide",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Terms of Service",
+          "url": "#",
+          "active": false
+        }
+      ]
+    },
+    {
+      "label": "Blog",
+      "url": "#",
+      "active": false,
+      "menu": [
+        {
+          "label": "Start Here",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Success Story",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About Me",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 01",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 02",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 03",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Contact Me",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Contact Us",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Purchase Guide",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Terms of Service",
+          "url": "#",
+          "active": false
+        }
+      ]
+    },
+    {
+      "label": "Shop",
+      "url": "#",
+      "active": false,
+      "menu": [
+        {
+          "label": "Start Here",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Success Story",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About Me",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 01",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 02",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "About us 03",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Contact Me",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Contact Us",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Purchase Guide",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "#",
+          "active": false
+        },
+        {
+          "label": "Terms of Service",
+          "url": "#",
+          "active": false
+        }
+      ]
+    }
+  ]
+}
