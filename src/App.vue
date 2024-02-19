@@ -18,6 +18,8 @@ export default {
 };
 </script>
 
-<template></template>
+<template>
+  <AppHeader></AppHeader>
+</template>
 
 <style scoped></style>
