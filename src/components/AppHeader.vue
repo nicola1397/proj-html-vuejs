@@ -56,16 +56,13 @@ export default {
           <!-- SEARCH -->
           <div class="searchBar">
             <input
-              class="form-control"
+              class="form-control border-0"
               type="text"
               placeholder="Search..."
-              id="example-search-input"
+              id="search-input"
             />
             <span class="searchIcon">
-              <button
-                class="btn btn-outline-secondary bg-white border-start-0 border ms-n3"
-                type="button"
-              >
+              <button class="btn ms-n3" type="button">
                 <i class="bi bi-search"></i>
               </button>
             </span>
@@ -109,6 +106,11 @@ nav {
 
 .searchBar {
   position: relative;
+  background-color: var(--shade2);
+  border: none;
+  #search-input {
+    background-color: transparent;
+  }
 }
 .searchIcon {
   position: absolute;

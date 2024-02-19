@@ -21,12 +21,13 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
+  <AppMain></AppMain>
 </template>
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 </style>

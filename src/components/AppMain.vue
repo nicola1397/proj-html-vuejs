@@ -1,5 +1,6 @@
 <script>
 import { store } from "../store.js";
+import AppJumbo from "./AppJumbo.vue";
 
 export default {
   data() {
@@ -7,9 +8,14 @@ export default {
       store,
     };
   },
+  components: {
+    AppJumbo,
+  },
 };
 </script>
 
-<template></template>
+<template>
+  <AppJumbo></AppJumbo>
+</template>
 
 <style scoped></style>
