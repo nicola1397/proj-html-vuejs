@@ -15,8 +15,10 @@ export default {
   <section>
     <div class="container-md" id="guide">
       <div id="sectionWrapper">
-        <div class="col-8 vert-center" id="videoPreview">
+        <div class="col-8 p-5" id="videoPreview">
           <!-- DECORATIONS -->
+          <img src="../assets/images/svg/cloud.svg" alt="" id="decor3" />
+
           <img
             src="../assets/images/maxcoach-shape-05.png"
             alt=""
@@ -28,11 +30,14 @@ export default {
             alt=""
             id="decor2"
           />
-          <img src="../assets/images/svg/cloud.svg" alt="" id="decor3" />
 
           <!-- IMAGE CONTAINER -->
           <div class="imgContainer">
-            <img src="../assets/images/home-2-popup-video-poster.jpg" alt="" />
+            <img
+              src="../assets/images/home-2-popup-video-poster.jpg"
+              alt=""
+              class="thumbnail"
+            />
             <img
               src="../assets/images/icon-youtube-play.png"
               alt=""
@@ -40,7 +45,7 @@ export default {
             />
           </div>
         </div>
-        <div class="col-4 vert-center">
+        <div class="col-4 p-5 vert-center">
           <h5 class="sectionSubtitle">
             GET STARTED <span class="subtitleBreak">EFFORTLESSLY</span>
           </h5>
@@ -117,23 +122,26 @@ section {
 }
 
 .imgContainer {
+  flex-shrink: 1;
   position: relative;
   align-self: center;
   border-radius: 10px;
-  width: fit-content;
   overflow: hidden;
+}
+.thumbnail {
+  width: 100%;
 }
 #videoPreview {
   position: relative;
   #decor1 {
     position: absolute;
-    left: 0;
-    top: 10%;
+    left: -5%;
+    top: 17%;
   }
   #decor2 {
     position: absolute;
-    right: 10%;
-    bottom: -25%;
+    right: 3%;
+    bottom: -5%;
   }
   #decor3 {
     position: absolute;
@@ -141,7 +149,9 @@ section {
       brightness(97%) contrast(84%);
 
     transform: scale(0.8);
-    top: -30%;
+    top: -10%;
+    left: -5%;
+    z-index: 0;
   }
   #decor4 {
     position: absolute;
