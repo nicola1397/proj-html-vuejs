@@ -5,4 +5,5 @@ export const store = reactive({
   navLinks: [],
   sponsors: [],
   courses: [],
+  programs: [],
 });
