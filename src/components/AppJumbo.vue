@@ -114,6 +114,9 @@ export default {
 #downloadButton {
   background-color: var(--green);
   margin: 20px 0;
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 h1 {
   color: var(--purpdark);
@@ -153,6 +156,7 @@ p {
       align-self: center;
       opacity: 0.5;
       &:hover {
+        transform: scale(1.2);
         opacity: 1;
         cursor: pointer;
       }
