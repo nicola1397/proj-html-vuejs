@@ -29,15 +29,15 @@ export default {
         this.nextIndex = this.activeIndex + 1;
       } else if (this.activeIndex == store.reviews.length - 1) {
         console.log("if 2");
-        this.nextIndex == 0;
+        this.nextIndex = 0;
         this.prevIndex = this.activeIndex - 1;
       } else {
         this.nextIndex = this.activeIndex + 1;
         this.prevIndex = this.activeIndex - 1;
       }
-      console.log(this.activeIndex);
-      console.log(this.prevIndex);
-      console.log(this.nextIndex);
+      console.log("active " + this.activeIndex);
+      console.log("prev" + this.prevIndex);
+      console.log("next" + this.nextIndex);
     },
   },
 
