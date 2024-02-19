@@ -372,5 +372,32 @@
         }
       ]
     }
+  ],
+
+  "partners": [
+    {
+      "label": "Stylus",
+      "image": "client-logo-01.png"
+    },
+    {
+      "label": "Tree",
+      "image": "client-logo-02.png"
+    },
+    {
+      "label": "Brook",
+      "image": "client-logo-03.png"
+    },
+    {
+      "label": "Pencil",
+      "image": "client-logo-04.png"
+    },
+    {
+      "label": "It's Alive!",
+      "image": "client-logo-05.png"
+    },
+    {
+      "label": "SixBase",
+      "image": "client-logo-06.png"
+    }
   ]
 }

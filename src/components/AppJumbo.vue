@@ -1,11 +1,17 @@
 <script>
 import { store } from "../store.js";
+import axios from "axios";
 
 export default {
   data() {
     return {
       store,
     };
+  },
+  created() {
+    axios.get(`${store.serverURI}/partners`).then((res) => {
+      store.sponsors = res.data;
+    });
   },
 };
 </script>
@@ -53,6 +59,11 @@ export default {
             id="decor4"
           />
         </div>
+      </div>
+    </div>
+    <div id="sponsors">
+      <div v-for="sponsor in store.sponsors">
+        <img :src="`src/assets/images/${sponsor.image}`" />
       </div>
     </div>
   </div>
@@ -128,6 +139,23 @@ p {
     &:visited {
       color: var(--green);
       text-decoration: none;
+    }
+  }
+}
+
+#sponsors {
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  div {
+    display: flex;
+    img {
+      align-self: center;
+      opacity: 0.5;
+      &:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
     }
   }
 }
