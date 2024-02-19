@@ -153,6 +153,17 @@ On hover 2 buttons, left and right -> index-- || or index++
           </div>
         </div>
       </div>
+      <div
+        v-if="this.loaded"
+        class="text-center d-flex align-items-center justify-content-center"
+      >
+        <i
+          v-for="(review, index) in store.reviews"
+          class="bi bi-dot sliderBall"
+          :id="index"
+          :class="index == this.activeIndex ? `active` : ``"
+        ></i>
+      </div>
     </div>
   </section>
 </template>
@@ -256,5 +267,14 @@ On hover 2 buttons, left and right -> index-- || or index++
   font-size: 3rem;
   z-index: 3;
   color: var(--purplight);
+}
+
+.sliderBall {
+  font-size: 3rem;
+  color: var(--shade5);
+  &.active {
+    color: var(--purpdark);
+    font-size: 5rem;
+  }
 }
 </style>
