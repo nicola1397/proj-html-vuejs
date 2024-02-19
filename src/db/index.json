@@ -373,7 +373,6 @@
       ]
     }
   ],
-
   "partners": [
     {
       "label": "Stylus",
@@ -492,6 +491,32 @@
       "name": "Ronald Wisley",
       "profession": "Wizard",
       "image": "testimonial-avata-01.jpg"
+    }
+  ],
+  "footerData": [
+    {
+      "addresses": [
+        {
+          "street": "382 NE 191st St # 87394 Miami. FL 33179-3899",
+          "number": "+1 (305) 547-9909",
+          "time": "(9am - 5pm EST, Monday - Friday)",
+          "mail": "support@maxcoach.com"
+        }
+      ],
+      "explore": [
+        { "label": "Start here", "url": "#" },
+        { "label": "Blog", "url": "#" },
+        { "label": "About us", "url": "#" },
+        { "label": "Success story", "url": "#" },
+        { "label": "Courses", "url": "#" },
+        { "label": "Contact us", "url": "#" }
+      ],
+      "information": [
+        { "label": "Membership", "url": "#" },
+        { "label": "Purchase guide", "url": "#" },
+        { "label": "Privacy policy", "url": "#" },
+        { "label": "Terms of service", "url": "#" }
+      ]
     }
   ]
 }

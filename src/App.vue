@@ -9,8 +9,10 @@ export default {
   data() {
     return {
       store,
+      loaded: false,
     };
   },
+  created() {},
   components: {
     AppHeader,
     AppMain,
@@ -22,6 +24,7 @@ export default {
 <template>
   <AppHeader></AppHeader>
   <AppMain></AppMain>
+  <AppFooter></AppFooter>
 </template>
 
 <style lang="scss">
