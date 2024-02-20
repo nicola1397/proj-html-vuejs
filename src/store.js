@@ -9,4 +9,5 @@ export const store = reactive({
   reviews: [],
   footerData: [],
   aboutUs: [],
+  blogs: [],
 });

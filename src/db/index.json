@@ -536,5 +536,27 @@
       "value": 1090,
       "what": "blog posts"
     }
+  ],
+  "blogs": [
+    {
+      "title": "Become a Better Blogger: Content Planning",
+      "url": "#"
+    },
+    {
+      "title": "Promoting Your Online Business on Pinterest",
+      "url": "#"
+    },
+    {
+      "title": "Gamification and Game-Based Learning",
+      "url": "#"
+    },
+    {
+      "title": "Designing an Online Course from Expert's Perspective",
+      "url": "#"
+    },
+    {
+      "title": "Why Online Courses Are the Future of Education",
+      "url": "#"
+    }
   ]
 }
