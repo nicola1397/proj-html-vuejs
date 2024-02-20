@@ -5,6 +5,7 @@ import AppCourses from "./AppCourses.vue";
 import AppPrograms from "./AppPrograms.vue";
 import AppGuide from "./AppGuide.vue";
 import AppSlider from "./AppSlider.vue";
+import AppNewsletter from "./AppNewsletter.vue";
 
 export default {
   data() {
@@ -18,6 +19,7 @@ export default {
     AppPrograms,
     AppGuide,
     AppSlider,
+    AppNewsletter,
   },
 };
 </script>
@@ -28,6 +30,7 @@ export default {
   <AppPrograms></AppPrograms>
   <AppGuide></AppGuide>
   <AppSlider></AppSlider>
+  <AppNewsletter></AppNewsletter>
 </template>
 
 <style scoped></style>

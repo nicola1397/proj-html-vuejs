@@ -114,6 +114,7 @@ section {
   padding: 10px 50px;
   &:hover {
     transform: scale(1.05);
+    background-color: var(--purpdark);
   }
 }
 </style>
