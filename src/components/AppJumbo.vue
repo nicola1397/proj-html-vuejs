@@ -26,7 +26,7 @@ export default {
             Learning is a life-long journey that in fact we never find the
             terminate stop. Stop searching, enjoy the process.
           </p>
-          <button class="btn p-3" id="downloadButton">
+          <button class="btn" id="downloadButton">
             <i class="bi bi-download text-white me-3"></i
             ><span class="text-white fw-bold">Download free guide</span>
           </button>
@@ -112,6 +112,10 @@ export default {
   }
 }
 #downloadButton {
+  padding: 10px 30px;
+  height: 50px;
+  font-size: 0.8rem;
+  font-weight: 800;
   background-color: var(--green);
   margin: 20px 0;
   &:hover {

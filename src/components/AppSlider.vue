@@ -170,7 +170,7 @@ On hover 2 buttons, left and right -> index-- || or index++
 
 <style lang="scss" scoped>
 .sliderSection {
-  padding: 100px 50px;
+  padding: 100px 50px 0;
   background-color: var(--shade4);
 }
 .sectionSubtitle {

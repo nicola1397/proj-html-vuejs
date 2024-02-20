@@ -109,6 +109,9 @@ section {
 }
 
 #viewAll {
+  height: 50px;
+  font-size: 0.8rem;
+  font-weight: 800;
   margin: 40px auto;
   background-color: var(--green);
   padding: 10px 50px;
