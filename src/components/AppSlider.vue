@@ -101,7 +101,9 @@ On hover 2 buttons, left and right -> index-- || or index++
               />
             </div>
             <div class="textContainer">
-              <h5 class="name">{{ store.reviews[this.prevIndex].name }}</h5>
+              <h5 class="name">
+                {{ store.reviews[this.prevIndex].name.toUpperCase() }}
+              </h5>
               <span class="profession"
                 >/ {{ store.reviews[this.prevIndex].profession }}</span
               >
@@ -122,7 +124,9 @@ On hover 2 buttons, left and right -> index-- || or index++
               />
             </div>
             <div class="textContainer">
-              <h5 class="name">{{ store.reviews[activeIndex].name }}</h5>
+              <h5 class="name">
+                {{ store.reviews[activeIndex].name.toUpperCase() }}
+              </h5>
               <span class="profession"
                 >/ {{ store.reviews[activeIndex].profession }}</span
               >
@@ -145,7 +149,9 @@ On hover 2 buttons, left and right -> index-- || or index++
               />
             </div>
             <div class="textContainer">
-              <h5 class="name">{{ store.reviews[this.nextIndex].name }}</h5>
+              <h5 class="name">
+                {{ store.reviews[this.nextIndex].name.toUpperCase() }}
+              </h5>
               <span class="profession"
                 >/ {{ store.reviews[this.nextIndex].profession }}</span
               >
@@ -212,6 +218,7 @@ On hover 2 buttons, left and right -> index-- || or index++
   background-color: var(--shade1);
   .title,
   .name {
+    font-size: 0.9rem;
     font-weight: 700;
     color: var(--purpdark);
   }

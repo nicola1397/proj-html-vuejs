@@ -514,5 +514,27 @@
       { "label": "Privacy policy", "url": "#" },
       { "label": "Terms of service", "url": "#" }
     ]
-  }
+  },
+  "aboutUs": [
+    {
+      "title": "Successfully trained",
+      "value": 1790,
+      "what": "enrolled learners"
+    },
+    {
+      "title": "Proudly Received",
+      "value": 19,
+      "what": "countrywide awards"
+    },
+    {
+      "title": "Firmly Established",
+      "value": 24,
+      "what": "local branches"
+    },
+    {
+      "title": "Getting Featured on ",
+      "value": 1090,
+      "what": "blog posts"
+    }
+  ]
 }

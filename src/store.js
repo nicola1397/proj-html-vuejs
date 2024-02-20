@@ -8,4 +8,5 @@ export const store = reactive({
   programs: [],
   reviews: [],
   footerData: [],
+  aboutUs: [],
 });

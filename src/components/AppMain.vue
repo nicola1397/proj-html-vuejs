@@ -7,6 +7,7 @@ import AppGuide from "./AppGuide.vue";
 import AppSlider from "./AppSlider.vue";
 import AppNewsletter from "./AppNewsletter.vue";
 import AppGetStarted from "./AppGetStarted.vue";
+import AppAboutUs from "./AppAboutUs.vue";
 
 export default {
   data() {
@@ -22,6 +23,7 @@ export default {
     AppSlider,
     AppNewsletter,
     AppGetStarted,
+    AppAboutUs,
   },
 };
 </script>
@@ -31,7 +33,9 @@ export default {
   <AppCourses></AppCourses>
   <AppPrograms></AppPrograms>
   <AppGuide></AppGuide>
-  <AppSlider></AppSlider><AppGetStarted></AppGetStarted>
+  <AppSlider></AppSlider>
+  <AppGetStarted></AppGetStarted>
+  <AppAboutUs></AppAboutUs>
   <AppNewsletter></AppNewsletter>
 </template>
 
